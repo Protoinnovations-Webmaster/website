@@ -26,8 +26,8 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #2F3238;
-	color: #7F8289;
+	background: #ffd699;
+	color: #000000;
 	text-shadow: none;
 	-webkit-border-radius: 0;
 	   -moz-border-radius: 0;
@@ -129,7 +129,7 @@
 
 .fancybox-close:hover {
 	opacity: 1;
-	background-color:#DE5E60;
+	background-color:#ff9900;
 }
 
 .fancybox-nav {
@@ -195,7 +195,7 @@
 
 .fancybox-nav:hover span {
 	opacity: 1;
-	background-color:#DE5E60;
+	background-color:#ff9900;
 }
 
 .fancybox-tmp {

@@ -74,14 +74,7 @@ p {
 
 hr {
 	border-style: dashed;
-	border-color:  #ffebcc
- #ffebcc
- #ffebcc
- #ffebcc
- #ffebcc
- #ffebcc
- #ffebcc
-#ffebcc;
+	border-color:#ffebcc;
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
@@ -216,8 +209,20 @@ h6{
 	line-height:1.5em;
 }
 
+
 h1{
-	font-size:48px;
+	font-weight:600;
+	font-size:5.9vw;
+}
+
+
+h1.crop{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
 }
 
 h2{
@@ -316,13 +321,10 @@ h3.spec {
 
 #home-slider .slider-text {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -150px 0 0 -585px;
-	width: 1170px;
-	height: 250px;
-	text-align: center;
-	z-index: 2;	
+	top: 33%;
+	width: 100%;
+	height: 100%;
+	
 }
 
 #home-slider #slidecaption {
@@ -334,8 +336,9 @@ h3.spec {
 }
 
 #home-slider .slide-content {
-	font-size: 60px;
-	color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+	color: #FF0000;
 	letter-spacing: 0px;
 	text-align: center;
 		
@@ -351,6 +354,7 @@ h3.spec {
 }
 
 #home-slider #nextslide,
+
 #home-slider #prevslide {
 	background-image: none;
 	background-color:#ffebcc;
@@ -486,13 +490,14 @@ header {
 	z-index: 99;
 }
 
+
 header .sticky-nav {
 	position: relative;
 	width: 100%;
-	height: 60px;
-	background: #C0C0C0;
+	height: 100%;
+	background: #FFFFFF;
 	z-index: 1001;
-	
+
 	-webkit-box-shadow: 0 1px 1px rgba(1, 0, 0, 0.25);
 	-moz-box-shadow: 0 1px 1px rgba(1, 0, 0, 0.25);
 	box-shadow: 0 1px 1px rgba(1, 0, 0, 0.25);
@@ -513,9 +518,9 @@ header #logo {
 }
 
 header #logo a {
-	background: url(../img/logo.png) no-repeat;
-	width: 96px;
-	height: 30px;
+	/*background: url(../img/PI_LOGO.png) no-repeat;*/
+	width: 100%;
+	height: 100%;
 	text-indent: -9999px;
 	display: block;
 	opacity: 1;
